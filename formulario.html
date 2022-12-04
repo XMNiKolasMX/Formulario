@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geeks</title>
+</head>
+
+<body>
+    <style>
+        body{
+            background-color: green;
+        }
+    </style>
+    <h1>GeeksforGeeks Survey From</h1>
+    <form action="">
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"><br><br>
+        <label for="correo">Email</label><br>
+        <input type="text" id="correo" name="correo" placeholder="Ingrese su correo electronico"><br><br>
+        <label for="edad">Edad</label><br>
+        <input type="number" id="edad" name="edad" placeholder="Ingrese su edad"><br><br>
+        <p></p>¿Que opcion te describe mejor?</p>
+        <select id="opinion" name="opinion">
+            <option value="estudiante">Estudiante</option>
+            <option value="empleado">Empleado</option>
+            <option value="sin_oficio">Desempleado</option>
+            <option value="universitario">Universitario</option>
+        </select><br><br>
+        <p>¿Nos recomendaria a un amigo?</p>
+        <input type="radio" id="si" name="si" value="si">
+        <label for="si">Si</label><br>
+        <input type="radio" id="no" name="no" value="no">
+        <label for="no">No</label><br>
+        <input type="radio" id="tal_vez" name="tal_vez" value="tal_vez">
+        <label for="tal_vez">Tal Vez</label><br>
+        <p>Lenguajes y progrmas que tu conoces</p>
+        <input type="checkbox" id="lenguaje1" name="lenguaje1" value="C">
+        <label for="lenguaje1">C</label><br>
+        <input type="checkbox" id="lenguaje2" name="lenguaje2" value="C++">
+        <label for="lenguaje2">C++</label><br>
+        <input type="checkbox" id="lenguaje3" name="lenguaje3" value="C#">
+        <label for="lenguaje3">C#</label><br>
+        <input type="checkbox" id="lenguaje4" name="lenguaje4" value="Java">
+        <label for="lenguaje3">Java</label><br>
+        <input type="checkbox" id="lenguaje5" name="lenguaje5" value="Python">
+        <label for="lenguaje3">Python</label><br>
+        <p>Alguna sugerencia</p>
+        <input type="text" id="sugerenciia" name="sugerencia"><br><br>
+        <input type="submit" value="enviar">
+    </form>
+</body>
+
+</html>
